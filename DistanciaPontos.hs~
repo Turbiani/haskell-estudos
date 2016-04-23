@@ -1,3 +1,0 @@
-subtrai x y = x - y
-multiplica_me x = x * x
-distancia_pontos x1 y1 x2 y2 = multiplica_me subtrai x2 x1 
