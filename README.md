@@ -1,5 +1,10 @@
 # haskell-estudos
-Estudos de Haskell baseados no livro Haskell: Uma abordagem prática
-[Link](http://www.novatec.com.br/livros/haskell/)
+Estudos de Haskell baseados nos livros:<br/> 
+* Haskell: Uma abordagem prática [Link](http://www.novatec.com.br/livros/haskell/)
 <br/>
 ![Haskell: Uma abordagem prática logo](http://www.novatec.com.br/figuras/capas/8575220950.jpg)
+<br/>
+* Haskell: Uma introdução a programação funcional [Link](https://www.casadocodigo.com.br/products/livro-haskell)
+<br/>
+![Uma introdução a programação funcional_logo](https://cdn.shopify.com/s/files/1/0155/7645/products/gTRsVcwn5ZDw42nu4hw-fQJrUiTm7HkKH-nU-M_2w2g_large.jpg)
+<br/>
