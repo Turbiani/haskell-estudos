@@ -1,4 +1,4 @@
-module PatternMatching1 where
+module PatternMatchingTuplas where
 f :: (Int, Int) -> Int
 f (0,0) = 0 -- valores fixos em ambas as coordenadas
 f (0,1) = 1
