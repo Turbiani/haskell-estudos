@@ -1,6 +1,6 @@
 module ValueConstructorsWithRecordSyntax where
 -- resumindo, damos nomes aos campos  dos values constructors
--- ao invés disso data	Distancia =	Pontos Double Double
+-- ao invés disso data	Distancia = Pontos Double Double
 -- criamos um tipo de dado dando nome aos campos que o value constructor carrega
 data Pontos = Pontos {xval, yval :: Double}
 -- Com isso fica mais semântico o fato dos campos terem nome, e não apenas String Int como

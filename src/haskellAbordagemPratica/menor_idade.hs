@@ -13,14 +13,14 @@ idade (x, y, z) = y
 
 menor :: Pessoa -> Pessoa -> Pessoa
 menor x y | x1 <= x2 = x
-		  | otherwise = y
-			where
-			  		x1 = idade x
-			  		x2 = idade y
+          | otherwise = y
+            where
+            x1 = idade x
+            x2 = idade y
 
 
 menor_idade :: Float -> Pessoa
 menor_idade x | x == 1 = pessoa 1
-			  | otherwise = menor (pessoa x) (menor_idade (x-1))
+              | otherwise = menor (pessoa x) (menor_idade (x-1))
 			  	
 
