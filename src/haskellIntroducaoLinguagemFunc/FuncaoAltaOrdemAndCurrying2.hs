@@ -30,4 +30,4 @@ somaTresNum f x = f (f x)
 -- somaTresNum f 1 = 1 + (2)
 -- somaTresNum f 1 = 3
 
--- ACHO QUE É ISSO POR HORA PESSOAR =) 
+-- ACHO QUE É ISSO POR HORA PESSOAR =)
