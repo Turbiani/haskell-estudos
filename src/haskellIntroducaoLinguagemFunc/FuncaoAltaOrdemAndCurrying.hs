@@ -14,4 +14,11 @@ somaCurr = somaTresNum 4 5
 -- somaCurr 5 = 4 + 5 + (funcaoAnonima 5)
 -- somaCurr 5 = 4 + 5 + 5
 -- somaCurr 5 = 14
---A COISA MAIS INTERESSANTE NISSO TUDO, É QUE ESSA FUNÇÃO CRIADA DINÂMICAMENTE HERDA O COMPORTAMENTO
+-- A COISA MAIS INTERESSANTE NISSO TUDO, É QUE ESSA FUNÇÃO CRIADA DINÂMICAMENTE HERDA O COMPORTAMENTO
+-- E ISSO TEM UM PORQUE, SEGUE UMA BREVE DEFINIÇÃO:
+-- Currying ocorre quando suprimimos argumentos de uma função. Com isso o retorno dessa função será uma outra função
+-- (high order function a partir desse momento) que terá como parâmetros os parâmetros não informados na primeira chamada
+-- no nosso exemplo, o parâmetro não informado foi o Z.
+-- A avaliação/resolução dessa nova função retornada levará em conta também os parâmetros informados na primeira chamada
+-- No nosso exemplo o 4 5 que eram x e y respectivamente, por isso herda o comportamento de somar =)
+-- Obs: Foi esse meu entendimento, de maneira alguma está escrito em pedra e afirmo que é assim mesmo esses conceitos.
